@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="libs/nouislider.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <button class="user-menu"></button>
+                    <div class="header__text">
+                        <span><a href="#">Need help?</a></span>
+                        <a href="tel:61383766284">Talk to an expert: +61 3 8376 6284</a>
+                    </div>
+                    <div class="header__box">
+
+                        <div class="header__box-inner">
+                            <div class="notifation__box">
+                                <a href="#" class="notifation header__circle active icon-bell-o">
+                                    <span>8</span>
+                                </a>
+                                <div class="notifation__menu">
+                                    <div class="notifation__menu-border">
+                                        <div class="notifation__item icon-bell-o">
+                                            <div class="notifation__img">
+                                                <img src="images/message-1.jpg" alt="">
+                                            </div>
+                                            <div class="notifation__item-box">
+                                                <div class="notifation__item-theme">Need WP Help!</div>
+                                                <div class="notifation__item-date">01 Dec, 2016</div>
+                                            </div>
+                                        </div>
+                                        <div class="notifation__item icon-bell-o">
+                                            <div class="notifation__img">
+                                                <img src="images/message-2.jpg" alt="">
+                                            </div>
+                                            <div class="notifation__item-box">
+                                                <div class="notifation__item-theme">Need WP Help!</div>
+                                                <div class="notifation__item-date">26 Nov, 2016</div>
+                                            </div>
+                                        </div>
+                                        <div class="notifation__item icon-bell-o">
+                                            <div class="notifation__img">
+                                                <img src="images/message-3.jpg" alt="">
+                                            </div>
+                                            <div class="notifation__item-box">
+                                                <div class="notifation__item-theme">Psd Template Help!</div>
+                                                <div class="notifation__item-date">26 Nov, 2016</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="message__box">
+                                <a href="#" class="message header__circle active icon-envelope-o">
+                                    <span>5</span>
+                                </a>
+                                <div class="message__menu">
+                                    <div class="message__menu-border">
+                                        <div class="message__item icon-envelope-o">
+                                            <div class="message__menu-user">
+                                                <div class="message__item-img">
+                                                    <img src="images/message-1.jpg" alt="">
+                                                </div>
+                                                <div class="message__item-box">
+                                                    <div class="message__item-name">Kazi Fahim</div>
+                                                    <div class="message__item-theme">Need WP Help!</div>
+                                                    <div class="message__item-data">01 Dec, 2016</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="message__item icon-envelope-o">
+                                            <div class="message__menu-user">
+                                                <div class="message__item-img">
+                                                    <img src="images/message-2.jpg" alt="">
+                                                </div>
+                                                <div class="message__item-box">
+                                                    <div class="message__item-name">Richi Lenal</div>
+                                                    <div class="message__item-theme">Need WP Help!</div>
+                                                    <div class="message__item-data">09 Dec, 2019</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="message__item icon-mail-reply">
+                                            <div class="message__menu-user">
+                                                <div class="message__item-img">
+                                                    <img src="images/message-3.jpg" alt="">
+                                                </div>
+                                                <div class="message__item-box">
+                                                    <div class="message__item-name">PsdBosS</div>
+                                                    <div class="message__item-theme">Psd Template Help!</div>
+                                                    <div class="message__item-data">09 Dec, 2019</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bascet__box">
+                                <a href="#" class="bascet header__circle active icon-shopping-cart">
+                                    <span>8</span>
+                                </a>
+                                <div class="bascet__menu">
+                                    <div class="bascet__menu-border">
+                                        <div class="bascet__item">
+                                            <div class="bascet__images">
+                                                <img src="images/bascet-1.jpg" alt="img">
+                                            </div>
+                                            <div class="bascet__info">
+                                                <div class="bascet__info-name">Grand Ballet</div>
+                                                <div class="bascet__info-theme">WordPress</div>
+                                                <div class="bascet__info-price">$59</div>
+                                            </div>
+                                        </div>
+                                        <div class="bascet__item">
+                                            <div class="bascet__images">
+                                                <img src="images/bascet-2.jpg" alt="img">
+                                            </div>
+                                            <div class="bascet__info">
+                                                <div class="bascet__info-name">Apple Device</div>
+                                                <div class="bascet__info-theme">WordPress</div>
+                                                <div class="bascet__info-price">$59</div>
+                                            </div>
+                                        </div>
+                                        <div class="bascet__summ">
+                                            <div class="bascet__total">
+                                                <div class="bascet__total-title">Total</div>
+                                                <div class="bascet__summ-praise">$118</div>
+                                            </div>
+                                            <div class="bascet__btn-wrap">
+                                                <a class="bascet__btn-go" href="#">Go to Cart</a>
+                                                <a class="bascet__btn-checkout" href="#">Go to Checkout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="user__box">
+                                <a href="#" class="user">
+                                    <div class="user__inner">
+                                        <div class="user__images">
+                                            <img src="images/user-login.jpg" alt="user">
+                                        </div>
+                                        <div class="user__info">
+                                            <div class="user__name">Mike Hussy</div>
+                                            <div class="user__money">$171.00</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="user__menu">
+                                    <ul class="user__menu-border">
+                                        <li><a class="angle-right" href="#">Profile Page</a></li>
+                                        <li><a class="angle-right" href="#">Portfolio</a></li>
+                                        <li><a class="angle-right" href="#">Account Setting</a></li>
+                                        <li><a class="angle-right" href="#">Downloads</a></li>
+                                        <li><a class="angle-right" href="#">Wishlist</a></li>
+                                        <li><a class="angle-right" href="#">Upload Item</a></li>
+                                        <li><a class="angle-right" href="#">Statement</a></li>
+                                        <li><a class="angle-right" href="#">Withdraws</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="#" class="header__btn header__btn-login header__btn-login--off">login</a>
+                            <a href="#" class="header__btn header__btn-logout header__btn-login--on">Logout</a></a>
+                            <a href="#" class="header__btn header__btn-register header__btn-login--off">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu">
+                <div class="container">
+                    <nav class="menu">
+                        <button class="btn-menu">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </button>
+                        <ul class="menu__list">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">WordPress</a>
+                            </li>
+                            <li>
+                                <a href="#">Joomla</a>
+                            </li>
+                            <li>
+                                <a href="#">PSD</a>
+                            </li>
+                            <li>
+                                <a href="#">Plugins</a>
+                            </li>
+                            <li>
+                                <a href="#">Components</a>
+                            </li>
+                            <li>
+                                <a href="#">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <!-- HEADER END -->
+    <section class="search  search-mini" style="background-image: url(images/search-bg.jpg) ;">
+        <div class="container">
+            <div class="search__inner">
+
+                <p class="search__inner-text">
+                    Premium WordPress Themes, Web Templates and Many More ...
+                </p>
+                <div class="search__inner-form">
+                    <form>
+                        <input type="text" placeholder="Search Your Keywords . . ." required>
+                        <button type="submit"><img src=" images/icon/icon-search.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs-left">
+                <div class="breadcrumbs__inner">
+                    <a href="#" class="breadcrumbs__link">Home -</a>
+                    <span>Product Page</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="profile">
+        <div class="container">
+            <div class="profile__inner">
+                <div class="profile__aside">
+                    <div class="aside__item profile__item">
+                        <div class="aside__title">
+                            About Author
+                        </div>
+                        <div class="autor__box-wrap">
+                            <div class="autor__abatar">
+                                <img src="images/autop-avatar.jpg" alt="">
+                            </div>
+                            <div class="autor__info">
+                                <div class="autor__name">PsdBoss</div>
+                                <a href="#" class="autor__link autor__link-provile link-provile--ofline">Online</a>
+                                <a href="#" class="autor__link autor__link-off ">Ofline</a>
+                            </div>
+                        </div>
+                        <ul class="autor-awards-list">
+                            <li class="autor-awards-item icon-meh-o"
+                                style="background-image: url(images/awards/avatar-bgicon-1.png);"></li>
+                            <li class="autor-awards-item icon-pagelines"
+                                style="background-image: url(images/awards/avatar-bgicon-2.png);"></li>
+                            <li class="autor-awards-item icon-bolt"
+                                style="background-image: url(images/awards/avatar-bgicon-3.png);"></li>
+                            <li class="autor-awards-item icon-foursquare"
+                                style="background-image: url(images/awards/avatar-bgicon-4.png);"></li>
+                            <li class="autor-awards-item icon-cny"
+                                style="background-image: url(images/awards/avatar-bgicon-5.png);"></li>
+                        </ul>
+                    </div>
+                    <ul class="footer__social-list">
+                        <li><a class=" footer-soc-1" href="#"></a></li>
+                        <li><a class=" footer-soc-2" href="#"></a></li>
+                        <li><a class=" footer-soc-3" href="#"></a></li>
+                        <li><a class=" footer-soc-4" href="#"></a></li>
+                    </ul>
+                    <button class="profile__aside-btn profile__btn-message">Send Message</button>
+                    <button class="profile__aside-btn profile__btn-followid">Following</button>
+                </div>
+                <div class="profile__right-box">
+                    <div class="profile__banner">
+                        <div class="profile__images" style="background-image: url(images/profile-banner.jpg);"></div>
+                    </div>
+                    <div class="profile__info">
+                        <div class="profile__info-item">
+                            <div class="profile__info-title">Country:</div>
+                            <div class="profile__info-text"> England</div>
+                        </div>
+                        <div class="profile__info-item">
+                            <div class="profile__info-title">Member Since:</div>
+                            <div class="profile__info-text"> December 26, 2014</div>
+                        </div>
+                        <div class="profile__info-item">
+                            <div class="profile__info-title">Author Rating:</div>
+                            <div class="products__item-star">
+                                <div class="rate-star"></div>(05)
+                            </div>
+                        </div>
+                        <div class="profile__info-item">
+                            <div class="profile__info-title">Total Sales:
+                            </div>
+                            <div class="profile__info-text"> <span>$ 5,030</span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-tabs">
+                <div class="product-one__tabs tabs__setting">
+                    <div class="tabs ">
+                        <span class="angle-icon icon-user tab active" data-id="1">Personal Information</span>
+                        <span class="angle-icon icon-envelope-o tab" data-id="2">Profile</span>
+                        <span class="angle-icon  icon-envelope-o tab" data-id="3">RBadges</span>
+                        <span class="angle-icon  icon-envelope-o tab" data-id="4">E-mail Settings</span>
+                        <span class="angle-icon  icon-envelope-o tab" data-id="5">Social Network</span>
+                    </div>
+                    <div class="setting__inner-tabs">
+                        <div class="tab-item active-tab" id="1">
+                            <div class="page-box">
+                                <h5 class="profile-tabs-title">About Me:</h5>
+                                <p class="profile-tabs-text">
+                                    Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                                </p>
+                                <div class="profile-tabs-title">Skills:</div>
+                                
+                                <h6 class="profile-skils__title"><i>Graphic Design</i> <span>90%</span> </h6>
+                                <div class="profile-progress"><span style="width: 90%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>WordPress</i> <span>60%</span> </h6>
+                                <div class="profile-progress"><span style="width: 60%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joomla</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="2">
+                            <div class="page-box">
+                                <h5 class="profile-tabs-title">About Me:</h5>
+                                <p class="profile-tabs-text">
+                                    Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                                </p>
+                                <div class="profile-tabs-title">Skills:</div>
+                                
+                                <h6 class="profile-skils__title"><i>Graphic Design</i> <span>90%</span> </h6>
+                                <div class="profile-progress"><span style="width: 90%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>WordPress</i> <span>60%</span> </h6>
+                                <div class="profile-progress"><span style="width: 60%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joomla</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joom</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="3">
+                            <div class="page-box">
+                                <h5 class="profile-tabs-title">About Me:</h5>
+                                <p class="profile-tabs-text">
+                                    Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                                </p>
+                                <p class="profile-tabs-text">
+                                    Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                                </p>
+                                <div class="profile-tabs-title">Skills:</div>
+                                
+                                <h6 class="profile-skils__title"><i>Graphic Design</i> <span>90%</span> </h6>
+                                <div class="profile-progress"><span style="width: 90%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>WordPress</i> <span>60%</span> </h6>
+                                <div class="profile-progress"><span style="width: 60%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joomla</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joom</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="4">
+                            <div class="page-box">
+                                <h5 class="profile-tabs-title">About Me:</h5>
+                                <p class="profile-tabs-text">
+                                    Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                                </p>
+                                <div class="profile-tabs-title">Skills:</div>
+                                
+                                <h6 class="profile-skils__title"><i>Graphic Design</i> <span>90%</span> </h6>
+                                <div class="profile-progress"><span style="width: 90%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>WordPress</i> <span>60%</span> </h6>
+                                <div class="profile-progress"><span style="width: 60%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joomla</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joom</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="5">
+                            <div class="page-box">
+                                <h5 class="profile-tabs-title">About Me:</h5>
+                                <p class="profile-tabs-text">
+                                    Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                                </p>
+                                <div class="profile-tabs-title">Skills:</div>
+                                
+                                <h6 class="profile-skils__title"><i>Graphic Design</i> <span>90%</span> </h6>
+                                <div class="profile-progress"><span style="width: 90%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>WordPress</i> <span>60%</span> </h6>
+                                <div class="profile-progress"><span style="width: 60%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joomla</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                                <h6 class="profile-skils__title"><i>Joom</i> <span>70%</span> </h6>
+                                <div class="profile-progress"><span style="width: 70%;"></span> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col footer__col-about">
+                        <h5 class="footer__col-title">
+                            About Company
+                        </h5>
+                        <p class="footer__col-text">
+                            Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit
+                            amet urna
+                            iat.Praesent vel rutrum purus.
+                        </p>
+                        <div class="footer__info">
+                            PO Box 16122 Collins Street West
+                            Victoria 8007 Australia
+                        </div>
+                        <a href="tel:61383766284" class="footer__info footer__info-phone">
+                            +61 3 8376 6284
+                        </a>
+                    </div>
+                    <div class="footer__col gooter__col-menu">
+                        <h5 class="footer__col-title">
+                            Join Our Community
+                        </h5>
+                        <ul class="footer__col-list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Forums</a></li>
+                            <li><a href="#">Become an Author</a></li>
+                            <li><a href="#">Community Meetups</a></li>
+                            <li><a href="#">Become an Affiliate</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col gooter__col-menu">
+                        <h5 class="footer__col-title">
+                            Need Help?
+                        </h5>
+                        <ul class="footer__col-list">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Foxtar Market Terms</a></li>
+                            <li><a href="#">Author Terms</a></li>
+                            <li><a href="#">Foxtar Licenses</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col footer__col-social">
+                        <h5 class="footer__col-title">
+                            Follow Us On
+                        </h5>
+                        <ul class="footer__social-list">
+                            <li><a class=" footer-soc-1" href="#"></a></li>
+                            <li><a class=" footer-soc-2" href="#"></a></li>
+                            <li><a class=" footer-soc-3" href="#"></a></li>
+                            <li><a class=" footer-soc-4" href="#"></a></li>
+                            <li><a class=" footer-soc-5" href="#"></a></li>
+                        </ul>
+                        <div class="footer__form">
+                            <h6 class="footer__form-title">
+                                Newsletter Sign Up!
+                            </h6>
+                            <form>
+                                <input type="text" placeholder="E-mail Address">
+                                <button type="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__coppy">
+            <div class="container">
+                <p class="footer__coppy-text">
+                    © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="libs/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <script src="libs/jquery.formstyler.min.js"></script>
+    <script src="libs/nouislider.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
